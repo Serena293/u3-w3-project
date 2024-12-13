@@ -5,15 +5,17 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Sidebar from './components/Sidebar';
+import Playbar from './components/Playbar'
 
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <Sidebar/>
+      <Playbar/>
  
     </>
   )
